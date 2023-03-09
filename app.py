@@ -8,7 +8,7 @@ clf=pickle.load(model_pickle)
 
 @app.route('/ping', methods=['GET'])
 def ping():
-    return {"message": "Pinging the model is successful!"}
+    return {"message": "Pinging the model is successful! HAHAHAHA"}
 
 @app.route('/predict', methods=['POST'])
 def prediction():
